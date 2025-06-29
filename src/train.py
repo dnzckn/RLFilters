@@ -13,7 +13,7 @@ NUM_FREQ_POINTS = 100
 BATCH_SIZE = 32
 EPOCHS = 20
 LEARNING_RATE = 0.001
-MODEL_PATH = "/Users/deniz/Documents/GitHub/RLFilters/models/em_emulator.pth"
+MODEL_PATH = "models/em_emulator.pth"
 
 def train_model():
     """Trains the EM emulator model."""
