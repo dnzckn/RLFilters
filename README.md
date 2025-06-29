@@ -85,7 +85,7 @@ python src/optimizer.py
 ```
 This will start the optimization process and, upon completion, display a plot of the best-found filter layout and its predicted frequency response.
 
-![Optimized Result](https---placeholder-for-image---)
+![Optimized Result](demo_figures/optimized_filter.png)
 *(This is where you could add a screenshot of the output plot)*
 
 ## Future Work

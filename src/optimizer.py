@@ -102,7 +102,7 @@ def optimize():
     plt.ylabel("S-Parameter Magnitude")
     plt.legend()
     plt.grid(True)
-    plt.show()
+    plt.savefig("/Users/deniz/Documents/GitHub/RLFilters/demo_figures/optimized_filter.png")
 
 if __name__ == "__main__":
     optimize()
