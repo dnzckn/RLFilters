@@ -1,6 +1,6 @@
 # Generative AI for Radio Filter Design
 
-This project is an attempt to implement and explore some of the core ideas presented in the Nature article: **[Deep-learning enabled generalized inverse design of multi-port radio-frequency and sub-terahertz passives and integrated circuits](httpshttps://doi.org/10.1038/s41467-024-54178-1)**.
+This project is an attempt to implement and explore some of the core ideas presented in the Nature article: **[Deep-learning enabled generalized inverse design of multi-port radio-frequency and sub-terahertz passives and integrated circuits](https://doi.org/10.1038/s41467-024-54178-1)**.
 
 The goal is to build a simplified, PyTorch-based framework that uses a generative/optimization process to design radio filters, demonstrating the potential of AI in complex engineering design.
 
@@ -86,7 +86,6 @@ python src/optimizer.py
 This will start the optimization process and, upon completion, display a plot of the best-found filter layout and its predicted frequency response.
 
 ![Optimized Result](demo_figures/optimized_filter.png)
-*(This is where you could add a screenshot of the output plot)*
 
 ## Future Work
 
@@ -96,3 +95,9 @@ This foundational implementation could be extended in many ways:
 -   **More Complex Architectures:** Experiment with more advanced CNN architectures (e.g., ResNets, U-Nets) for the emulator.
 -   **Advanced Optimization:** Explore other optimization algorithms like Particle Swarm Optimization (PSO), or generative models like Variational Autoencoders (VAEs) or Generative Adversarial Networks (GANs).
 -   **Multi-Port Devices:** Extend the framework to handle multi-port devices, as discussed in the paper, which would require designing a more complex output from the emulator.
+
+## Citation
+
+The work in this repository is inspired by the following publication:
+
+> Karahan, E. A., Liu, Z., Gupta, A., Shao, Z., Zhou, J., Khankhoje, U., & Sengupta, K. (2024). Deep-learning enabled generalized inverse design of multi-port radio-frequency and sub-terahertz passives and integrated circuits. *Nature Communications*, *15*(1), 10734. https://doi.org/10.1038/s41467-024-54178-1
