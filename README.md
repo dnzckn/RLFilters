@@ -54,10 +54,7 @@ RLFilters/
     ```
     *Note: This project was developed with `numpy<2`. If you encounter compatibility issues with `torch`, you may need to manage the numpy version accordingly.*
 
-    *Also, to run the scripts from the root directory, you may need to add the project directory to your `PYTHONPATH`.*
-    ```bash
-    export PYTHONPATH=$PYTHONPATH:/path/to/your/RLFilters
-    ```
+    
 
 ### Running the Project
 

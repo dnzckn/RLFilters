@@ -5,7 +5,7 @@ from src.model import EM_Emulator
 import matplotlib.pyplot as plt
 
 # --- Configuration ---
-MODEL_PATH = "/Users/deniz/Documents/GitHub/RLFilters/models/em_emulator.pth"
+MODEL_PATH = "models/em_emulator.pth"
 GRID_SIZE = 16
 NUM_FREQ_POINTS = 100
 POPULATION_SIZE = 100

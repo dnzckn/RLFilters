@@ -7,7 +7,7 @@ from src.dataset import FilterDataset
 from src.model import EM_Emulator
 
 # --- Configuration ---
-CSV_FILE = "/Users/deniz/Documents/GitHub/RLFilters/data/synthetic_data.csv"
+CSV_FILE = "data/synthetic_data.csv"
 GRID_SIZE = 16
 NUM_FREQ_POINTS = 100
 BATCH_SIZE = 32

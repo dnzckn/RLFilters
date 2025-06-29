@@ -46,6 +46,6 @@ if __name__ == "__main__":
     NUM_SAMPLES = 1000
     GRID_SIZE = 16
     NUM_FREQ_POINTS = 100
-    OUTPUT_DIR = "/Users/deniz/Documents/GitHub/RLFilters/data"
+    OUTPUT_DIR = "data"
     
     generate_synthetic_data(OUTPUT_DIR, NUM_SAMPLES, GRID_SIZE, NUM_FREQ_POINTS)
